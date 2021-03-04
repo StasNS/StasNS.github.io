@@ -3759,6 +3759,9 @@ a.btn-left, a.btn-right {
 .mt0 {
 	margin-top: 0;
 }
+.mt5 {
+	margin-top: 5px;
+}
 .mt10 {
 	margin-top: 10px;
 }
