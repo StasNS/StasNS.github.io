@@ -5126,6 +5126,7 @@ footer .widget_list li a {
 .schedule-item .sc-time,
 .schedule-item .sc-name,
 .schedule-item .sc-info,
+.schedule-item .sc-pic,
 .schedule-item .sc-sp{
 	float:left;
 }
@@ -5137,30 +5138,35 @@ footer .widget_list li a {
 	width: 15px;
 }
 .schedule-item .sc-pic {
-	width: 100px;
+	width: 150px;
 	text-align:center;
-	float: right;
-}
-.schedule-item .sc-pic h4 {
-	font-size: 14px;
-	margin: 0;
-	line-height: 1.6em;
-	font-weight:bold;
 }
 .schedule-item .sc-pic img {
-	margin-top:-20px;
+	margin-top:-5px;
 	width: 60px;
 	height: auto;
 	border:solid 3px #fff;
 }
+.schedule-item .sc-more {
+	width: 100px;
+	text-align: center;
+	float: right;
+}
+.schedule-item .sc-more h4 {
+	font-size: 14px;
+	margin: 0;
+	line-height: 1.6em;
+	font-weight:bold;
+	float: right;
+}
 .schedule-item .sc-name {
 	font-weight: normal;
 	font-size: 14px;
-	width: 180px;
+	width: 220px;
 }
 .schedule-item .sc-name h4 {
 	font-size: 14px;
-	margin: 0;
+	margin-bottom: 10px;
 	line-height: 1.6em;
 	font-weight:bold;
 }
@@ -5170,7 +5176,8 @@ footer .widget_list li a {
 }
 
 .schedule-item .sc-info {
-	width: calc(100%/1.5);
+	margin-left: 15px;
+	width: calc(100%/1.55);
 }
 .schedule-item .sc-info h3 {
 	font-size:18px !important;

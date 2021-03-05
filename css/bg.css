@@ -11,6 +11,15 @@ background-size: 100%;
 #section-fun-facts {background:url(../images/background/2.jpg) fixed;}
 #section-schedules {background:url(../images/background/2.jpg) fixed;}
 
+/* background settings for footer */
+footer{
+-webkit-background-size: 100%;
+-moz-background-size: 100%;
+-o-background-size: 100%;
+background-size: 100%;
+background:url(../images/background/2.jpg) fixed;
+}
+
 /* media query */
 @media only screen and (max-width: 1199px) { 
 	section{
