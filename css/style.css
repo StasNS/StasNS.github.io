@@ -699,7 +699,7 @@ footer {
 }
 footer h3, .de_light footer h3 {
 	color: #fff;
-	font-size: 20px;
+	font-size: 14px;
 	text-transform: none;
 	font-weight: normal;
 }
@@ -2192,7 +2192,7 @@ h3.style-2 {
 	font-size: 18px;
 }
 h4 {
-	font-family: "Nunito";
+	font-family: "Montserrat";
 }
 h4.title {
 	border-bottom: solid 1px #ddd;
@@ -2212,8 +2212,7 @@ h1, h2, h3, h4, h5 {
 }
 h4 {
 	margin: 10px 0 10px 0;
-	font-size: 14px;
-	line-height: 2em;
+	font-size: 18px;
 	font-weight: 500;
 }
 h4.s2 {
@@ -5143,7 +5142,7 @@ footer .widget_list li a {
 }
 .schedule-item .sc-pic img {
 	margin-top:-5px;
-	width: 60px;
+	width: 80px;
 	height: auto;
 	border:solid 3px #fff;
 }
@@ -5168,11 +5167,15 @@ footer .widget_list li a {
 	font-size: 14px;
 	margin-bottom: 10px;
 	line-height: 1.6em;
-	font-weight:bold;
+	/*font-weight:bold;*/
 }
 .schedule-item .sc-name span {
-	font-weight: normal;
-	font-size: 12px;
+	font-size: 14px;
+	margin-bottom: 10px;
+	line-height: 1.6em;
+	font-weight:bold;
+	text-transform: uppercase;
+	/*color: rgba(255, 0, 123, 1);*/
 }
 
 .schedule-item .sc-info {
@@ -5183,6 +5186,12 @@ footer .widget_list li a {
 	font-size:18px !important;
 	margin-bottom: 10px;
 	font-weight:bold;
+}
+.schedule-item .sc-info span {
+	font-size:18px !important;
+	margin-bottom: 10px;
+	font-weight:bold;	
+	text-transform: uppercase;
 }
 .schedule-item .sc-name h3 {
 	font-size:18px !important;
@@ -6242,10 +6251,13 @@ a.read_more i {
 }
 
 .subtitle2 {
-	font-size: 13px;
+	font-size: 14px;
 	display: block;
-	margin-bottom: 10px;
-	color: rgba(0, 19, 145, 1);
+	margin-top: 5px;
+	margin-bottom: 20px;
+	color: #574a66;
+	font-family: "Montserrat";
+
 }
 
 .profile_pic .tiny-border {

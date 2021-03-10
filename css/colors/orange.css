@@ -68,7 +68,6 @@ a.btn-fullwidth,
 #mainmenu li:hover > a,
 .date-box .day,
 .slider_text h1,
-.id-color,
 h1.id-color,h2.id-color,h3.id-color,h4.id-color,
 .pricing-box li h1,
 .title span,
@@ -122,6 +121,10 @@ h2.hs1 span,
 
 .schedule-item .sc-name{
 	color: #ffffff;
+}
+
+.id-color{
+	color: #fc4668;
 }
 
 .subtitle2 span {

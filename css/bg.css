@@ -10,6 +10,7 @@ background-size: 100%;
 #section-intro {background:url(../images/background/1.jpg) fixed;}
 #section-fun-facts {background:url(../images/background/2.jpg) fixed;}
 #section-schedules {background:url(../images/background/2.jpg) fixed;}
+#section-register {background:url(../images/background/2.jpg) fixed; }
 
 /* background settings for footer */
 footer{
