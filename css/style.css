@@ -1860,6 +1860,11 @@ a.btn-fullwidth:hover{
 	width: 100%;
 	font-weight: lighter !important;
 }
+.de_count img {
+	display: block;
+	margin: 0 auto;
+	height: 90px;
+}
 
 /* divider */
 
@@ -5161,36 +5166,38 @@ footer .widget_list li a {
 .schedule-item .sc-name {
 	font-weight: normal;
 	font-size: 14px;
-	width: 220px;
+	width: 270px;
 }
 .schedule-item .sc-name h4 {
 	font-size: 14px;
 	margin-bottom: 10px;
-	line-height: 1.6em;
+	line-height: 1.4em;
 	/*font-weight:bold;*/
 }
 .schedule-item .sc-name span {
 	font-size: 14px;
 	margin-bottom: 10px;
-	line-height: 1.6em;
-	font-weight:bold;
+	line-height: 1.4em;
+	/*font-weight:bold;*/
 	text-transform: uppercase;
 	/*color: rgba(255, 0, 123, 1);*/
 }
 
 .schedule-item .sc-info {
-	margin-left: 15px;
-	width: calc(100%/1.55);
+	margin-left: 20px;
+	width: calc(100%/1.7);
 }
 .schedule-item .sc-info h3 {
 	font-size:18px !important;
 	margin-bottom: 10px;
+	line-height: 1.4em;
 	font-weight:bold;
 }
 .schedule-item .sc-info span {
-	font-size:18px !important;
+	font-size:14px !important;
 	margin-bottom: 10px;
-	font-weight:bold;	
+	line-height: 1.4em;
+	/*font-weight:bold;*/	
 	text-transform: uppercase;
 }
 .schedule-item .sc-name h3 {
