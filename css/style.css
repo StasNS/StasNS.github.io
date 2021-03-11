@@ -3316,8 +3316,8 @@ a.accordion-toggle, a:visited.accordion-toggle {
 
 /* tab de_light */
 .de_tab.tab_style_4{
-	border:solid 1px rgba(255,255,255,.1);
-}
+	/*border:solid 1px rgba(255,255,255,.1);
+*/}
 .de_tab.tab_style_4 .de_tab_content {
 	border: none;
 	background: none;
@@ -3387,7 +3387,7 @@ a.accordion-toggle, a:visited.accordion-toggle {
 .tab_style_4 h3, .de_tab.tab_style_4 .de_nav li span {
 	margin: 0;
 	font-size: 22px;
-	font-weight: bold;
+	/*font-weight: bold;*/
 }
 .tab_style_4 h4 {
 	margin: 0;
@@ -5142,7 +5142,7 @@ footer .widget_list li a {
 	width: 15px;
 }
 .schedule-item .sc-pic {
-	width: 150px;
+	width: 15%;
 	text-align:center;
 }
 .schedule-item .sc-pic img {
@@ -5152,7 +5152,7 @@ footer .widget_list li a {
 	border:solid 3px #fff;
 }
 .schedule-item .sc-more {
-	width: 100px;
+	width: 15%;
 	text-align: center;
 	float: right;
 }
@@ -5166,7 +5166,7 @@ footer .widget_list li a {
 .schedule-item .sc-name {
 	font-weight: normal;
 	font-size: 14px;
-	width: 270px;
+	width: 20%;
 }
 .schedule-item .sc-name h4 {
 	font-size: 14px;
@@ -5185,7 +5185,7 @@ footer .widget_list li a {
 
 .schedule-item .sc-info {
 	margin-left: 20px;
-	width: calc(100%/1.7);
+	width: 60%;
 }
 .schedule-item .sc-info h3 {
 	font-size:18px !important;
@@ -7009,7 +7009,7 @@ a, img {
 /* ================================================== */
 
 
-/* R E S P O N S I V E */
+/* R E S P O N S I V E МОБИЛКА*/ 
 
 
 /* ================================================== */
@@ -7019,6 +7019,7 @@ a, img {
 	header #mainmenu a {
 		padding-left: 5px;
 		padding-right: 5px;
+		font-size: 14px;
 	}
 	#mainmenu li a:after {
 		margin-left: 15px;
@@ -7435,6 +7436,7 @@ a, img {
 	}
 	.de_tab.tab_style_4 .de_nav li {
 		min-width:100px;
+		padding: 15px 0px 15px 0px;
 	}
 	.de_tab.tab_style_4 .de_nav {
 		border-radius: 0;
@@ -7442,7 +7444,7 @@ a, img {
 		-webkit-border-radius: 0;
 	}
 	.de_tab.tab_style_4 .de_nav li {
-		min-width: 33.3%;
+		/*min-width: 33.3%;*/
 		width: 33.3%;
 		border: none;
 	}
@@ -7450,6 +7452,12 @@ a, img {
 		border-radius: 0;
 		-moz-border-radius: 0;
 		-webkit-border-radius: 0;
+	}
+	.picframe {
+		width: 80%;
+	}
+	.picframe img {
+		width: 60%;
 	}
 	
 	#custom-owl-slider {
@@ -7471,12 +7479,12 @@ a, img {
 	.schedule-item .sc-name,
 	.schedule-item .sc-info {
 		text-align:left;
-		width:130px;
+		width:30%;
 	}
 	
 	.schedule-item .sc-info{
-		margin-top:20px;
-		width:100%;
+		/*margin-top:20px;*/
+		width:50%;
 	}
 	
 	.schedule-item .sc-info h3{
@@ -7528,7 +7536,25 @@ a, img {
 		width: 80%;
 	}
 	.picframe img {
-		width: 100%;
+		width: 60%;
+	}
+	.de_count img {
+    display: block;
+    margin: 0 auto;
+    height: 20vw;
+	}
+	a.btn-custom, .btn-custom {
+    background: #eee;
+    color: #fff;
+    border-radius: 40px;
+    padding: 5px 20px 5px 20px;
+    /* min-width: 120px; */
+    text-decoration: none;
+	}
+	a.btn-custom, .btn-custom, a.btn-slider, .btn-slider {
+   	font-family: "Montserrat";
+    	font-size: 5vw;
+    	/* min-width: 120px; */
 	}
 	.container-4 .de-team-list {
 		width: 100%;
@@ -7595,12 +7621,18 @@ a, img {
 		font-size:10vw;
 		line-height:10vw;
 	}
-	
+	h2.big,h2.very-big{
+		font-size:5vw;
+		line-height:5vw;
+	}
+	.subtitle.s2 h3{
+		font-size:3vw;
+		line-height:3vw;
+	}
 	.subtitle.s2 span{
 		display:block;
 		padding:0;
 	}
-	
 	.countdown-s1 .countdown-show4 .countdown-section,
 	.countdown-s3 .countdown-show4 .countdown-section,
 	.countdown-s5 .countdown-show4 .countdown-section{
