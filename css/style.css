@@ -3390,8 +3390,9 @@ a.accordion-toggle, a:visited.accordion-toggle {
 	/*font-weight: bold;*/
 }
 .tab_style_4 h4 {
-	margin: 0;
-	font-size: 12px;
+	 font-size: 14px;
+    margin-bottom: 0px;
+    line-height: 1.4em;
 }
 .de_tab .de_tab_content.tc_style-1 {
 	background: none;
