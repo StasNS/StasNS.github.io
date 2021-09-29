@@ -5012,6 +5012,9 @@ footer .widget_list li a {
 .schedule-listing:nth-child(2n+2) {
 	background:rgba(255,255,255,.1);
 }
+.schedule-listing .bg_red{
+	background:rgba(191, 33, 100, 0.7);
+}
 .schedule-item .sc-time,
 .schedule-item .sc-name,
 .schedule-item .sc-info,
