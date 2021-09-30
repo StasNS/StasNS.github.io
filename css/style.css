@@ -7377,20 +7377,25 @@ a, img {
 		height:100% !important;
 	}
 	
-	.schedule-item .sc-time,
 	.schedule-item .sc-pic{
 		text-align:center;
 		width:15%;
 	}
+	.schedule-item .sc-time{
+		text-align:right;
+		width:100%;
+	}
 	.schedule-item .sc-name {
-		text-align:left;
-		width:30%;
+		text-align:center;
+		margin-left: 0px;
+		width:100%;
 	}
 	
 	.schedule-item .sc-info{
 		/*margin-top:20px;*/
-		text-align:left;
-		width:50%;
+		text-align:center;
+		margin-left: 0px;
+		width:100%;
 	}
 	
 	.schedule-item .sc-info h3{
@@ -7398,13 +7403,14 @@ a, img {
 	}
 	
 	.schedule-item .sc-pic{
-		width:60px;
+		width:100%;
 	}
 	
 	.schedule-item .sc-pic img{
 		border:none;
-		width:40px;
+		width:80px;
 		margin-top:-10px;
+		margin-bottom:10px;
 	}
 	
 	.schedule-item .sc-name span{
@@ -7633,7 +7639,16 @@ a, img {
 	}
 	
 	.schedule-item .sc-pic{
-		display:none;
+		/*display:none;*/
+		width:100%;
+	}
+	.schedule-item .sc-info h4 span{
+		/*display:none;*/
+		font-size: 1.7vh !important;
+	}
+	.schedule-item .sc-info h4{
+		/*display:none;*/
+		font-size: 1.7vh !important;
 	}
 }
 
